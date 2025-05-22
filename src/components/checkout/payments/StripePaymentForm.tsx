@@ -71,6 +71,7 @@ const StripePaymentForm = () => {
         discountTotal: orderResponse.discount_total,
         billing: orderResponse.billing,
         shipping: orderResponse.shipping,
+        customer_note: orderResponse.customer_note,
         line_items: orderResponse.line_items.map((item: any) => ({
           id: item.id,
           name: item.name,
@@ -114,7 +115,9 @@ const StripePaymentForm = () => {
     // );
 
     const { email, phone, first_name, last_name } = orderInfo.billing || {};
-    const fullName = `${first_name ?? ""} ${last_name ?? ""}`.trim();
+    const fullName = `${(first_name ?? "").trim()} ${(
+      last_name ?? ""
+    ).trim()}`.trim();
 
     try {
       const response = await fetch("/api/create-payment-intent", {
