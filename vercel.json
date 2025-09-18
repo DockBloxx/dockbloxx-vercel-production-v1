@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/product/:slug*",
+      "destination": "/shop/:slug*",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
