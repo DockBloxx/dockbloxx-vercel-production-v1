@@ -46,7 +46,19 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  staticPageGenerationTimeout: 600, // Increase static generation timeout to 300 seconds
+  staticPageGenerationTimeout: 300, // Increase static generation timeout to 300 seconds
+
+  // START: Add the new redirects function here
+  async redirects() {
+    return [
+      {
+        source: "/product/:slug*",
+        destination: "/shop/:slug*",
+        permanent: true,
+      },
+    ];
+  },
+  // END: Add the new redirects function here
 };
 
 export default nextConfig;
