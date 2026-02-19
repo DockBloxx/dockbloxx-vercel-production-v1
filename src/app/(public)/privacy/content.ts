@@ -98,7 +98,7 @@ export const policies = [
   
   Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.
   
-  ### YOUR RIGHTS
+  ### Your Rights
   
   If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.
   
@@ -114,7 +114,7 @@ export const policies = [
   
   ### Contact us
   
-  For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at sales@devdockbloxx.wpenginepowered.com or by mail using the details provided below:
+  For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e-mail at sales@dockbloxx.com or by mail using the details provided below:
   
   2349 Centennial Dr.
   Gainesville, GA 30504
