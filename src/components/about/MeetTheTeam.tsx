@@ -11,47 +11,52 @@ const teamMembers: TeamMember[] = [
     name: "Brady Bragg",
     role: "Chief Innovation Officer",
     image: getImageUrl(
-      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.25.42-AM@2x.png"
+      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.25.42-AM@2x.png",
     ),
   },
   {
     name: "Dan Nestor",
     role: "Strategic Accounts",
     image: getImageUrl(
-      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.25.49-AM@2x.png"
+      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.25.49-AM@2x.png",
     ),
   },
   {
     name: "Bryce Neal",
     role: "Director of Operations",
     image: getImageUrl(
-      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.25.56-AM@2x.png"
+      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.25.56-AM@2x.png",
     ),
   },
   {
     name: "Mattie Smith",
     role: "Director of Marketing",
     image: getImageUrl(
-      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.26.04-AM@2x.png"
+      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.26.04-AM@2x.png",
     ),
   },
   {
     name: "Clint Presley",
     role: "CFO",
     image: getImageUrl(
-      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.26.12-AM@2x.png"
+      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.26.12-AM@2x.png",
     ),
   },
+  // {
+  //   name: "Anthony",
+  //   role: "Director of Sales",
+  //   image: getImageUrl("/wp-content/uploads/Anthory_1.png"),
+  // },
   {
-    name: "Anthony",
-    role: "Director of Sales",
-    image: getImageUrl("/wp-content/uploads/Anthory_1.png"),
+    name: "Becky Whiteside",
+    role: "Sales Skipper",
+    image: getImageUrl("/wp-content/uploads/Becky-Whiteside.jpg"),
   },
   {
     name: "Andrew Bourke",
     role: "I.T.",
     image: getImageUrl(
-      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.26.34-AM@2x.png"
+      "/wp-content/uploads/Screen-Shot-2025-01-08-at-3.26.34-AM@2x.png",
     ),
   },
   {
@@ -68,10 +73,6 @@ const MeetTheTeam = () => {
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-10">
           Meet the Team
         </h2>
-        {/* <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p> */}
 
         <div className="bg-white shadow-lg rounded-lg p-8">
           {/* Top Row - 4 members */}
