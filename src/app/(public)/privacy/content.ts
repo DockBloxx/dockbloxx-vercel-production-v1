@@ -98,7 +98,7 @@ export const policies = [
   
   Please note that we do not alter our Site’s data collection and use practices when we see a Do Not Track signal from your browser.
   
-  ### Your Rights
+  ### YOUR RIGHTS
   
   If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.
   

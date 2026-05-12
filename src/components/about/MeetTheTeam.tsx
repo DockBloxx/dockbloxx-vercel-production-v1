@@ -73,6 +73,10 @@ const MeetTheTeam = () => {
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-10">
           Meet the Team
         </h2>
+        {/* <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p> */}
 
         <div className="bg-white shadow-lg rounded-lg p-8">
           {/* Top Row - 4 members */}
